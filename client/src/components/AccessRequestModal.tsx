@@ -52,6 +52,12 @@ export default function AccessRequestModal({ isOpen, onClose }: AccessRequestMod
     e.preventDefault();
     if (!validate()) return;
     
+    if (!supabase) {
+      console.error("Supabase client is not initialized. Please check your environment variables.");
+      alert("Erro de configuração no servidor. Por favor, tente novamente mais tarde.");
+      return;
+    }
+
     setLoading(true);
 
     try {
