@@ -21,21 +21,12 @@ export default function Footer() {
     },
     {
       name: "LinkedIn",
-      href: "#",
+      href: "https://www.linkedin.com/in/medequip-flow-gestão-inteligente-de-equipamentos-a90417408",
       icon: (
         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
           <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
           <rect x="2" y="9" width="4" height="12"/>
           <circle cx="4" cy="4" r="2"/>
-        </svg>
-      ),
-    },
-    {
-      name: "Twitter",
-      href: "#",
-      icon: (
-        <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-          <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
         </svg>
       ),
     },
@@ -142,36 +133,6 @@ export default function Footer() {
                 </a>
               ))}
             </div>
-
-            {/* Instagram handle highlight */}
-            <a
-              href="https://www.instagram.com/medequipflow"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-2 mt-4 px-3 py-1.5 rounded-lg transition-all duration-200"
-              style={{
-                background: "rgba(0, 217, 255, 0.1)",
-                border: "1px solid rgba(0, 217, 255, 0.3)",
-                color: "#00d9ff",
-                fontFamily: "'Nunito Sans', sans-serif",
-                fontSize: "0.78rem",
-                fontWeight: 600,
-                textDecoration: "none",
-              }}
-              onMouseEnter={(e) => {
-                (e.currentTarget as HTMLAnchorElement).style.background = "rgba(0, 217, 255, 0.2)";
-              }}
-              onMouseLeave={(e) => {
-                (e.currentTarget as HTMLAnchorElement).style.background = "rgba(0, 217, 255, 0.1)";
-              }}
-            >
-              <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
-                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
-                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
-              </svg>
-              @medequipflow
-            </a>
           </div>
 
           {/* Link columns */}
